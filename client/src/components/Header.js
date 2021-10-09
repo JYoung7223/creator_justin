@@ -3,7 +3,7 @@ import React, { useReducer } from "react";
 function Header(){
     const initHeader = {
         name: "Justin Young",
-        logo: "/logo.jpg",
+        logo: "./logo.jpg",
         logoAlt: "Logo",
         logoLink: "/"
     };
