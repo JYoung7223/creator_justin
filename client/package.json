@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
-  "homepage": "https://jyoung7223.github.io/creator_justin/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "axios": "^0.18.0",
