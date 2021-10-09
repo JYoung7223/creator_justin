@@ -20,8 +20,8 @@ function About(){
                         <p className="mb-1 card-text">
                             When not programming or working, Justin enjoys spending time with his family, learning music, running, exercising, biking, playing softball and being active.
                         </p>
-                        <a href="/recent-projects" className="btn btn-primary mx-2">View Recent Hobby Projects</a>
-                        <a href="./assets/documents/justin-young-resume.pdf" download><i className="fa fa-download mx-2" aria-hidden="true"> Download Resume Copy</i></a>            
+                        <a href="/projects" className="btn btn-primary mx-2">View Recent Hobby Projects</a>
+                        <a href="../assets/documents/justin-young-resume.pdf" download><i className="fa fa-download mx-2" aria-hidden="true"> Download Resume Copy</i></a>            
                     </div>
                 </div>
             </div>
