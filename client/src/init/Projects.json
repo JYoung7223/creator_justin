@@ -1,7 +1,7 @@
 [
     {
         "key": "01",
-        "image": "./assets/images/reserve_space.png",
+        "image": "../assets/images/reserve_space.png",
         "imageAlt": "reserve",
         "title": "Reserve A Space",
         "description": "Site to reserve spaces",        

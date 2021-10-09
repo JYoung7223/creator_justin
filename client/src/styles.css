@@ -1,7 +1,8 @@
 :root{
-    --primary-company-color:#6a459b;
-    --primary-focus-color:#d2c3e0;
-    --secondary-company-color:rgba(112, 128, 144, 0.747);
+    --primary-company-color:#320494;
+    --primary-focus-color:#a981ff;
+    --secondary-company-color:#0747c3;
+    --secondary-focus-color:#41acf9;
 }
 
 .hidden{
@@ -32,19 +33,15 @@
     color:var(--secondary-company-color);
     text-shadow: 1px 1px #FFFFFF;
 }
-.navbar img{
-    width:1rem;
-    height:1rem;
-}
-a{
-    color: var(--primary-company-color);
-}
-header a:hover{
-    text-decoration: none;
-    color:var(--primary-company-color);
-}
 
 /* BootStrap Overrides */
+.nav-tabs .nav-link {
+    color: var(--secondary-company-color);
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus{
+    color: var(--secondary-focus-color);
+}
+
 /* Buttons */
 .btn-primary{
     background-color:var(--primary-company-color);

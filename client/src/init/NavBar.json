@@ -1,22 +1,68 @@
 [
     {
-        "text": "Home",
+        "text": "Process",
         "link": "/",
-        "order": 0
+        "order": 0,
+        "submenu": [
+            {
+                "text": "Phase 1",
+                "link": "/#01",
+                "order": 0
+            },
+            {
+                "text": "Phase 2",
+                "link": "/#02",
+                "order": 1
+            },
+            {
+                "text": "Phase 3",
+                "link": "/#03",
+                "order": 2
+            }
+        ]
     },
     {
         "text": "Projects",
-        "link": "/recent-projects",
-        "order": 1
+        "link": "/projects",
+        "order": 1,
+        "submenu": [
+            {
+                "text": "Project 1",
+                "link": "/projects/#01",
+                "order": 0
+            },
+            {
+                "text": "Project 2",
+                "link": "/projects/#02",
+                "order": 1
+            },
+            {
+                "text": "Project 3",
+                "link": "/projects/#03",
+                "order": 2
+            }
+        ]
     },
     {
         "text": "About Me",
         "link": "/about",
-        "order": 2
-    },
-    {
-        "text": "Contact Me",
-        "link": "/contact",
-        "order": 3
+        "order": 2,
+        "submenu": [
+            {
+                "text": "Experience",
+                "link": "/about/#experience",
+                "order": 0
+            },
+            {
+                "text": "Interests",
+                "link": "/about/#interests",
+                "order": 1
+            },
+            {
+                "text": "Download Resume",
+                "link": "/about/#resume",
+                "order": 2
+            }
+        ]
     }
 ]

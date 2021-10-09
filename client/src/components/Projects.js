@@ -21,7 +21,7 @@ function Projects(){
     const [projectsData, setProjectsData] = useReducer(changeProjects, initProjects);
 
     return (        
-        <div className="projects row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+        <div className="projects row row-cols-1">
             {projectsData.map((project)=>{
                 return(
                     <Project key={project.key} project={project}/>

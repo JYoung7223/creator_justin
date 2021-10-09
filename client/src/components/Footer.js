@@ -14,7 +14,7 @@ function Footer(){
     return (
         <footer className="container-fluid fixed-bottom mb-0 bg-light">
             <section className="row">
-                <div className="col text-center"><i className="fas fa-copyright"></i> {footerData.text}</div>
+                <div className="col text-company-primary text-center"><i className="fas fa-copyright"></i> {footerData.text}</div>
             </section>
         </footer>        
     );

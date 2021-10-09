@@ -1,12 +1,20 @@
 import React, { useReducer } from "react";
 import NavBarItems from "../init/NavBar.json";
+import { Header } from "./Header";
 
 function NavBar(){
     const initNavBar = NavBarItems || [
         {
             text: "",
             link: "",
-            order: 0
+            order: 0,
+            submenu:[
+                {
+                    text: "",
+                    link: "",
+                    order: 0
+                }
+            ]
         }
     ];
 
@@ -17,24 +25,33 @@ function NavBar(){
     const [navBarData, setNavBarData] = useReducer(changeNavBar, initNavBar);
 
     return (
-        <nav className="container-fluid navbar navbar-expand-md navbar-light bg-light">
-
-            <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapseableContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i className="fas fa-bars"></i>
-            </button>
-
-            <div className="collapse navbar-collapse" id="navbarCollapseableContent">
-                <ul className="navbar-nav">
+        <nav className="navbar sticky-top navbar-light bg-light">
+            <div className="container-fluid">
+                <Header/>
+                <div className="col-12 col-md-6">
+                    <ul className="nav nav-tabs">
                     {
                         navBarData.map((item) => {
                             return (
-                                <li key={item.order} className="nav-item">
-                                    <a className="nav-link" href={item.link}>{item.text}</a>
+                                <li key={item.order} className="nav-item dropdown mx-3">
+                                    <a className="nav-link dropdown-toggle" href={item.link} id={item.text} role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        {item.text}
+                                    </a>
+                                    <ul className="dropdown-menu" aria-labelledby={item.text}>
+                                        {
+                                            item.submenu.map((subitem)=>{
+                                                return (
+                                                    <li key={subitem.order}><a className="dropdown-item" href={subitem.link}>{subitem.text}</a></li>
+                                                );
+                                            })
+                                        }
+                                    </ul>
                                 </li>
                             );
                         })
                     }                
-                </ul>
+                    </ul>
+                </div>
             </div>
         </nav>
     );

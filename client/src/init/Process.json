@@ -1,0 +1,44 @@
+[
+    {
+        "key": "01",
+        "image": "./assets/images/under_construction.jpg",
+        "imageAlt": "phase1",
+        "title": "Phase 1 Coming Soon",
+        "description": "Phase 1 details on the way",        
+        "repoLink": "https://github.com/JYoung7223/",
+        "repoLinkText": "View Projects",
+        "deployLink": "",
+        "deployLinkText": ""
+    },
+    {
+        "key": "02",
+        "image": "./assets/images/under_construction.jpg",
+        "imageAlt": "phase2",
+        "title": "Phase 2 Coming Soon",
+        "description": "Phase 2 Details coming soon",
+        "repoLink": "",
+        "repoLinkText": "",
+        "deployLink": "",
+        "deployLinkText": ""
+    },
+    {
+        "key": "03",
+        "image": "./assets/images/under_construction.jpg",
+        "imageAlt": "phase3",
+        "title": "Phase 3 Coming",
+        "description": "Phase 3 TBD",
+        "repoLink": "",
+        "repoLinkText": "",
+        "deployLink": "",
+        "deployLinkText": ""
+    },
+    {
+        "key": "04",
+        "image": "./assets/images/under_construction.jpg",
+        "imageAlt": "phase4",
+        "title": "Other Phases Coming",
+        "description": "Additional Phases TBD",
+        "repoLink": "",
+        "repoLinkText": ""        
+    }
+]

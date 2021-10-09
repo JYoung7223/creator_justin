@@ -2,10 +2,10 @@ import React from "react";
 
 function About(){    
     return (
-        <div class="card mb-3">
+        <div className="card mb-3">
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src="./assets/images/about-us/justin-young/profile-pic.png" className="card-img" alt="Founder"/>
+                    <img src="../assets/images/about-us/justin-young/profile-pic.png" className="card-img" alt="Founder"/>
                 </div>
 
                 <div className="pl-2 col-md-8">
