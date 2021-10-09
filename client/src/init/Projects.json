@@ -1,0 +1,66 @@
+[
+    {
+        "key": "01",
+        "image": "./assets/images/reserve_space.png",
+        "imageAlt": "reserve",
+        "title": "Reserve A Space",
+        "description": "Site to reserve spaces",        
+        "repoLink": "https://github.com/HeavensRegent/reserve-a-room",
+        "repoLinkText": "View Project Repository",
+        "deployLink": "https://reserve-a-room.herokuapp.com/",
+        "deployLinkText": "See It In Action"
+    },
+    {
+        "key": "02",
+        "image": "https://github.com/JYoung7223/jy_budget_tracker/raw/master/assets/my_budget.png",
+        "imageAlt": "budget",
+        "title": "Budget Tracker",
+        "description": "Simple app to track income & expenses",
+        "repoLink": "https://github.com/JYoung7223/jy_budget_tracker",
+        "repoLinkText": "View Project Repository",
+        "deployLink": "https://jy-budget-tracker.herokuapp.com/",
+        "deployLinkText": "See It In Action"
+    },
+    {
+        "key": "03",
+        "image": "https://github.com/JYoung7223/jy_employee_directory/raw/gh-pages/assets/my_directory.png",
+        "imageAlt": "directory",
+        "title": "Employee Directory",
+        "description": "Mock Employee Directory",
+        "repoLink": "https://github.com/JYoung7223/jy_employee_directory/tree/gh-pages",
+        "repoLinkText": "View Project Repository",
+        "deployLink": "https://jyoung7223.github.io/jy_employee_directory/",
+        "deployLinkText": "See It In Action"
+    },
+    {
+        "key": "04",
+        "image": "https://github.com/JYoung7223/jy_workout_tracker/raw/master/assets/my_workout.png",
+        "imageAlt": "workout",
+        "title": "Workout Tracker",
+        "description": "Basic Workout Tracker",
+        "repoLink": "https://github.com/JYoung7223/jy_workout_tracker",
+        "repoLinkText": "View Project Repository",
+        "deployLink": "https://still-earth-19142.herokuapp.com/",
+        "deployLinkText": "See It In Action"
+    },
+    {
+        "key": "05",
+        "image": "https://github.com/JYoung7223/jy_blog_mvc/raw/main/assets/my_blog.png",
+        "imageAlt": "blog",
+        "title": "Best Blog",
+        "description": "Basic Blog Site",
+        "repoLink": "https://github.com/JYoung7223/jy_blog_mvc",
+        "repoLinkText": "View Project Repository",
+        "deployLink": "https://jy-best-blog.herokuapp.com/",
+        "deployLinkText": "See It In Action"
+    },
+    {
+        "key": "06",
+        "image": "https://github.com/JYoung7223/jy_readme_gen/raw/main/assets/my_readme.gif",
+        "imageAlt": "readme",
+        "title": "ReadMe Generator",
+        "description": "Command-Line ReadMe.md Generator",
+        "repoLink": "https://github.com/JYoung7223/jy_readme_gen",
+        "repoLinkText": "View Project Repository"        
+    }
+]
