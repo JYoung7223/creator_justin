@@ -1,10 +1,8 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 
 function ProjectDetail(props){
-    const params = useParams();
     return (
-        <section className="card project-detail mb-3" id={params.id}>Project Detail for Project {params.id}
+        <section className="card project-detail mb-3">Project Detail for Project {props.id}
             {/* <div className={(props.project.key % 2 === 0 && "row flex-row-reverse g-0") || (props.project.key % 2 === 1 && "row g-0")}>
                 <div className="col-md-4">
                     <img src={props.project.image} className="img-fluid rounded-start" alt={props.project.imageAlt}/>
