@@ -11,7 +11,7 @@ function Projects(){
             description:"",
             link: "",
             linkText:""
-        },
+        }
     ];
 
     function changeProjects(currentProjects, change){

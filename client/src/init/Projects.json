@@ -5,23 +5,37 @@
         "imageAlt": "utahDMV",
         "title": "Utah DMV",
         "description": "UX & UI redesign of the Utah DMV website.  With targeted goals of determining high-demand tasks and simplification of vehicle registration user-flow.",        
-        "primaryButtonLink": "https://www.figma.com/proto/fuauyZnCo5mZfZ8BqrvY0F/Utah-DMV?node-id=79%3A1285&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=79%3A1285&show-proto-sidebar=1",
+        "primaryButtonLink": "../assets/videos/projects/Utah-DMV.mp4",
         "primaryButtonText": "View Prototype App",
-        "secondaryButtonLink": "https://docs.google.com/presentation/d/1URK-RisNBPW-S64a-YAlwjEBMzWvRO4A/edit?usp=sharing&ouid=108086159208834352979&rtpof=true&sd=true",
-        "secondaryButtonText": "View Presentation",
-        "footerLink": "./01",
-        "footerLinkText": "View Project Details"
-        
+        "secondaryButtonLink": "./01",
+        "secondaryButtonText": "View Project Details",
+        "footerLink": "",
+        "footerLinkText": ""        
     },
     {
         "key": "02",
-        "image": "../assets/images/under_construction.jpg",
-        "imageAlt": "project2",
-        "title": "Project 2 Coming Soon",
-        "description": "Project 2 Details coming soon",
-        "repoLink": "",
-        "repoLinkText": "",
-        "deployLink": "",
-        "deployLinkText": ""
+        "image": "../assets/images/projects/Utah-FMA.png",
+        "imageAlt": "utahFMA",
+        "title": "Utah Film Makers Association",
+        "description": "UX & UI redesign of the Utah Film Maker's Association website.  With a targeted goal of updating look & feel and improving donation process flow.",
+        "primaryButtonLink": "../assets/videos/projects/Utah-FMA.mp4",
+        "primaryButtonText": "View Prototype App",
+        "secondaryButtonLink": "./02",
+        "secondaryButtonText": "View Project Details",
+        "footerLink": "",
+        "footerLinkText": "" 
+    },
+    {
+        "key": "03",
+        "image": "../assets/images/projects/Reserve-A-Space.png",
+        "imageAlt": "reserveASpace",
+        "title": "Reserve A Space",
+        "description": "Full-stack development of a small venture project. With a targeted goal of end-to-end functionality of listed & reserving event spaces.",
+        "primaryButtonLink": "../assets/videos/projects/Reserve-A-Space.mp4",
+        "primaryButtonText": "View Prototype App",
+        "secondaryButtonLink": "./03",
+        "secondaryButtonText": "View Project Details",
+        "footerLink": "",
+        "footerLinkText": "" 
     }
 ]

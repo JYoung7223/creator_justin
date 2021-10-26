@@ -1,0 +1,101 @@
+[
+    {
+        "key": "01",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-1.png",
+        "imageAlt": "utahDMV1",
+        "title": "Who is our Customer",
+        "description": ["Determined who is the typical customer ", "Created a 'Proto-Persona' ", "Got an idea of our audience"],
+        "footerText": ""
+    },
+    {
+        "key": "02",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-2.png",
+        "imageAlt": "utahDMV2",
+        "title": "Test Current Site",
+        "description": ["Had Customers Evaluate the Current Site ", "With a Key Interest in... "],
+        "footerText": "Why and How are they using the site?"
+    },
+    {
+        "key": "03",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-3.png",
+        "imageAlt": "utahDMV3",
+        "title": "Analyze Navigation",
+        "description": ["Evaluated Navigation Heuristics ", "Assessed Topic Card Sorting ", "Analyzed Navigation 'Look & Feel' "],
+        "footerText": ""
+    },
+    {
+        "key": "04",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-4.png",
+        "imageAlt": "utahDMV4",
+        "title": "Assess Site Mood",
+        "description": ["Does the Mood of the Site Fit the Business Function ", "How do we Appear to the Customer ", "How Does the Customer 'Feel' About the Site "],
+        "footerText": ""
+    },
+    {
+        "key": "05",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-5.png",
+        "imageAlt": "utahDMV5",
+        "title": "User Flow Efficiency",
+        "description": ["How Does User Navigate Through Site ", "User Click Path ", "Clicks to Get to Target "],
+        "footerText": ""
+    },
+    {
+        "key": "06",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-6.png",
+        "imageAlt": "utahDMV6",
+        "title": "Preparation for Redesign",
+        "description": ["Desired Mood ", "Style Guide ", "Navigation "],
+        "footerText": ""
+    },
+    {
+        "key": "07",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-7.png",
+        "imageAlt": "utahDMV7",
+        "title": "Preparation for Redesign",
+        "description": ["Determine focus: ", "Desired Mood ", "Preferred Navigation ", "User Flows "],
+        "footerText": ""
+    },
+    {
+        "key": "08",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-8.png",
+        "imageAlt": "utahDMV8",
+        "title": "Prototyping",
+        "description": ["Prepare Wireframes: ", "Mobile ", "Web "],
+        "footerText": ""
+    },
+    {
+        "key": "09",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-9.png",
+        "imageAlt": "utahDMV9",
+        "title": "Testing Prototype",
+        "description": ["Obtain user feedback on targeted user flows and general mood. "],
+        "footerText": ""
+    },
+    {
+        "key": "10",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-10.png",
+        "imageAlt": "utahDMV10",
+        "title": "Update Prototype",
+        "description": ["Address user feedback and improve on targeted user flows and general mood. "],
+        "footerText": ""
+    },
+    {
+        "key": "11",
+        "project": "01",
+        "image": "../assets/images/projects/Utah-DMV-11.png",
+        "imageAlt": "utahDMV11",
+        "title": "What Next",
+        "description": ["Consider secondary user flows ", "Consider other user interfaces (smart-watch) ", "User Testing and Implemention (Implement design) "],
+        "footerText": "Make the Upgrade"
+    }
+]
