@@ -18,12 +18,17 @@ function ProjectDetail(props){
     }];
     const initProject = Projects[params.id-1] || 
     {
+        key: "",
         image: "",
         imageAlt: "",
         title: "",
-        description:"",
-        link: "",
-        linkText:""
+        description: "",        
+        primaryButtonLink: "",
+        primaryButtonText: "",
+        secondaryButtonLink: "",
+        secondaryButtonText: "",
+        footerLink: "",
+        footerLinkText: ""
     };
 
     function changeDetails(currentDetails, change){
@@ -35,8 +40,14 @@ function ProjectDetail(props){
     return (
         <div className="projectDetails row row-cols-1">
             <h2 className="project-title text-center text-company-primary">{initProject.title}</h2>
-            <h3 className="project-description text-center text-company-secondary">With a Small Team, We Analyzed this Site and the Customer Experience. </h3>  
-            <h3 className="project-description text-center text-company-secondary">Through the Following Process We Prepared an Improved Site UX/UI. </h3>
+            <p className="project-description text-center text-company-secondary">With a Small Team, We Analyzed this Site and the Customer Experience. </p>  
+            <p className="project-description text-center text-company-secondary">Through the Following Process We Prepared an Improved Site UX/UI. </p>
+            <div className="project-links text-center">
+                {
+                    initProject.primaryButtonLink &&
+                    <a href={initProject.primaryButtonLink} className="btn btn-primary m-4">{initProject.primaryButtonText}</a>
+                }
+            </div>
             {detailsData.map((detail)=>{
                 if(detail.project === params.id){
                     return(
