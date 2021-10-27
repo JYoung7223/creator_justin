@@ -37,12 +37,12 @@
                 "order": 0
             },
             {
-                "text": "Project 1",
+                "text": "Project 1 - DMV",
                 "link": "/projects/01",
                 "order": 1
             },
             {
-                "text": "Project 2",
+                "text": "Project 2 - UFA",
                 "link": "/projects/02",
                 "order": 2
             },
