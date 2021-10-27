@@ -40,7 +40,7 @@ function ProjectDetail(props){
     return (
         <div className="projectDetails row row-cols-1">
             <h2 className="project-title text-center text-company-primary">{initProject.title}</h2>
-            <p className="project-description text-center text-company-secondary">With a Small Team, We Analyzed this Site and the Customer Experience. </p>  
+            <p className="project-description text-center text-company-secondary">With a Teammate, We Analyzed this Site and the Customer Experience. </p>  
             <p className="project-description text-center text-company-secondary">Through the Following Process We Prepared an Improved Site UX/UI. </p>
             <div className="project-links text-center">
                 {
