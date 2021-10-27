@@ -1,27 +1,27 @@
 [
     {
         "text": "Process",
-        "link": "/",
+        "link": "/process",
         "order": 0,
         "submenu": [
             {
                 "text": "Overview",
-                "link": "/#",
+                "link": "/process/#",
                 "order": 0
             },
             {
                 "text": "Phase 1",
-                "link": "/01",
+                "link": "/process/01",
                 "order": 1
             },
             {
                 "text": "Phase 2",
-                "link": "/02",
+                "link": "/process/02",
                 "order": 2
             },
             {
                 "text": "Phase 3",
-                "link": "/03",
+                "link": "/process/03",
                 "order": 3
             }
         ]

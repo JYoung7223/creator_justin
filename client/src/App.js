@@ -15,10 +15,11 @@ function App() {
       <div className="container">
         <Router>
           <Switch>
-            <Route exact path="/" component={Process} />
+            <Route exact path="/" component={Projects} />
+            <Route exact path="/process" component={Process} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/projects/:id" component={ProjectDetail} />
-            <Route path="/about" component={About} />
+            <Route exact path="/about" component={About} />
           </Switch>
         </Router>
       </div>
