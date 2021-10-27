@@ -5,7 +5,7 @@
         "imageAlt": "utahDMV",
         "title": "Utah DMV",
         "description": "UX & UI redesign of the Utah DMV website.  With targeted goals of determining high-demand tasks and simplification of vehicle registration user-flow.",        
-        "secondaryButtonLink": "./01",
+        "secondaryButtonLink": "/projects/01",
         "secondaryButtonText": "View Project Details",
         "footerLink": "",
         "footerLinkText": ""        
@@ -18,7 +18,7 @@
         "description": "UX & UI redesign of the Utah Film Maker's Association website.  With a targeted goal of updating look & feel and improving donation process flow.",
         "primaryButtonLink": "../assets/videos/projects/Utah-FMA.mp4",
         "primaryButtonText": "View Prototype App",
-        "secondaryButtonLink": "./02",
+        "secondaryButtonLink": "/projects/02",
         "secondaryButtonText": "View Project Details",
         "footerLink": "",
         "footerLinkText": "" 
@@ -31,7 +31,7 @@
         "description": "Full-stack development of a small venture project. With a targeted goal of end-to-end functionality of listed & reserving event spaces.",
         "primaryButtonLink": "../assets/videos/projects/Reserve-A-Space.mp4",
         "primaryButtonText": "View Prototype App",
-        "secondaryButtonLink": "./03",
+        "secondaryButtonLink": "/projects/03",
         "secondaryButtonText": "View Project Details",
         "footerLink": "",
         "footerLinkText": "" 
