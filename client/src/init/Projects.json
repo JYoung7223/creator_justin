@@ -5,8 +5,6 @@
         "imageAlt": "utahDMV",
         "title": "Utah DMV",
         "description": "UX & UI redesign of the Utah DMV website.  With targeted goals of determining high-demand tasks and simplification of vehicle registration user-flow.",        
-        "primaryButtonLink": "./01/#08",
-        "primaryButtonText": "View Prototype App",
         "secondaryButtonLink": "./01",
         "secondaryButtonText": "View Project Details",
         "footerLink": "",
