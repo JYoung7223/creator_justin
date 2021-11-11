@@ -2,8 +2,8 @@
     {
         "key": "01",
         "project": "01",
-        "image": "../assets/images/projects/01/Utah-DMV-1.png",
-        "imageAlt": "utahDMV1",
+        "image": "../assets/images/projects/01/Story01.png",
+        "imageAlt": "story01",
         "title": "Who is our Customer?",
         "description": ["Determined who is the typical customer ", "Created a 'Proto-Persona' ", "Got an idea of our audience"],
         "footerText": ""
@@ -11,8 +11,8 @@
     {
         "key": "02",
         "project": "01",
-        "image": "../assets/images/projects/01/Utah-DMV-2.png",
-        "imageAlt": "utahDMV2",
+        "image": "../assets/images/projects/01/Story02.png",
+        "imageAlt": "story02",
         "title": "How Does the Customer Interact with the Current Site?",
         "description": ["Had Customers Evaluate the Current Site ", "With a Key Interest in... "],
         "footerText": "Why and How are they using the site?"
@@ -20,8 +20,8 @@
     {
         "key": "03",
         "project": "01",
-        "image": "../assets/images/projects/01/Utah-DMV-3.png",
-        "imageAlt": "utahDMV3",
+        "image": "../assets/images/projects/01/Story03.png",
+        "imageAlt": "story03",
         "title": "How is the Navigation?",
         "description": ["Evaluated Navigation Heuristics ", "Assessed Navigation & Menu Categories ", "Analyzed Navigation 'Look & Feel' "],
         "footerText": ""
@@ -29,8 +29,8 @@
     {
         "key": "04",
         "project": "01",
-        "image": "../assets/images/projects/01/Utah-DMV-4.png",
-        "imageAlt": "utahDMV4",
+        "image": "../assets/images/projects/01/Story04.png",
+        "imageAlt": "story04",
         "title": "What is the 'Mood' of the Site?",
         "description": ["Does the Mood of the Site Fit the Business Function ", "How do we Appear to the Customer ", "How Does the Customer 'Feel' About the Site "],
         "footerText": ""
@@ -38,8 +38,8 @@
     {
         "key": "05",
         "project": "01",
-        "image": "../assets/images/projects/01/Utah-DMV-5.png",
-        "imageAlt": "utahDMV5",
+        "image": "../assets/images/projects/01/Story05.png",
+        "imageAlt": "story5",
         "title": "How Efficient is the User Flow?",
         "description": ["How Does User Navigate Through Site ", "User Click Path ", "Clicks to Get to Target "],
         "footerText": ""
@@ -47,8 +47,8 @@
     {
         "key": "06",
         "project": "01",
-        "image": "../assets/images/projects/01/Utah-DMV-6.png",
-        "imageAlt": "utahDMV6",
+        "image": "../assets/images/projects/01/Story06.png",
+        "imageAlt": "story6",
         "title": "Preparation for Redesign",
         "description": ["What is the Desired Mood? ", "Creating a Style Guide"],
         "footerText": ""
@@ -56,17 +56,17 @@
     {
         "key": "07",
         "project": "01",
-        "image": "../assets/images/projects/01/Utah-DMV-7.png",
-        "imageAlt": "utahDMV7",
+        "image": "../assets/images/projects/01/Story07.png",
+        "imageAlt": "story7",
         "title": "Overhaul Navigation",
         "description": ["Open & Closed Card Sorting ", "Implement New Topic Grouping in Navigation ", "Test Navigation & Menus"],
         "footerText": ""
     },
     {
-        "key": "prototyping",
+        "key": "08",
         "project": "01",
-        "image": "../assets/images/projects/01/Utah-DMV-8.png",
-        "imageAlt": "utahDMV8",
+        "image": "../assets/images/projects/01/Story08.png",
+        "imageAlt": "story8",
         "title": "Prototyping",
         "description": ["Prepare Wireframes ", "Mobile ", "Web ", "Test Prototypes"],
         "footerText": ""
@@ -74,8 +74,8 @@
     {
         "key": "09",
         "project": "01",
-        "image": "../assets/images/projects/01/Utah-DMV-9.png",
-        "imageAlt": "utahDMV9",
+        "image": "../assets/images/projects/01/Story09.png",
+        "imageAlt": "story9",
         "title": "Update Prototype",
         "description": ["Address User Feedback ", "Improve Targeted User Flows ", "Improve Mood. "],
         "footerText": ""
@@ -83,8 +83,100 @@
     {
         "key": "10",
         "project": "01",
-        "image": "../assets/images/projects/01/Utah-DMV-10.png",
-        "imageAlt": "utahDMV11",
+        "image": "../assets/images/projects/01/Story10.png",
+        "imageAlt": "story10",
+        "title": "What Next",
+        "description": ["Consider secondary user flows ", "Consider other user interfaces (smart-watch) ", "User Testing and Implemention (Implement design) "],
+        "footerText": "Make the Upgrade"
+    },
+
+
+    {
+        "key": "01",
+        "project": "02",
+        "image": "../assets/images/projects/02/Story01.png",
+        "imageAlt": "story01",
+        "title": "Who is our Customer?",
+        "description": ["Determined who is the typical customer ", "Created a 'Proto-Persona' ", "Got an idea of our audience"],
+        "footerText": ""
+    },
+    {
+        "key": "02",
+        "project": "02",
+        "image": "../assets/images/projects/02/Story2.png",
+        "imageAlt": "story02",
+        "title": "How Does the Customer Interact with the Current Site?",
+        "description": ["Had Customers Evaluate the Current Site ", "With a Key Interest in... "],
+        "footerText": "Why and How are they using the site?"
+    },
+    {
+        "key": "03",
+        "project": "02",
+        "image": "../assets/images/projects/02/Story3.png",
+        "imageAlt": "story03",
+        "title": "How is the Navigation?",
+        "description": ["Evaluated Navigation Heuristics ", "Assessed Navigation & Menu Categories ", "Analyzed Navigation 'Look & Feel' "],
+        "footerText": ""
+    },
+    {
+        "key": "04",
+        "project": "02",
+        "image": "../assets/images/projects/02/Story4.png",
+        "imageAlt": "story04",
+        "title": "What is the 'Mood' of the Site?",
+        "description": ["Does the Mood of the Site Fit the Business Function ", "How do we Appear to the Customer ", "How Does the Customer 'Feel' About the Site "],
+        "footerText": ""
+    },
+    {
+        "key": "05",
+        "project": "02",
+        "image": "../assets/images/projects/02/Story5.png",
+        "imageAlt": "story05",
+        "title": "How Efficient is the User Flow?",
+        "description": ["How Does User Navigate Through Site ", "User Click Path ", "Clicks to Get to Target "],
+        "footerText": ""
+    },
+    {
+        "key": "06",
+        "project": "02",
+        "image": "../assets/images/projects/02/Story6.png",
+        "imageAlt": "story06",
+        "title": "Preparation for Redesign",
+        "description": ["What is the Desired Mood? ", "Creating a Style Guide"],
+        "footerText": ""
+    },
+    {
+        "key": "07",
+        "project": "02",
+        "image": "../assets/images/projects/02/Story7.png",
+        "imageAlt": "story07",
+        "title": "Overhaul Navigation",
+        "description": ["Open & Closed Card Sorting ", "Implement New Topic Grouping in Navigation ", "Test Navigation & Menus"],
+        "footerText": ""
+    },
+    {
+        "key": "prototyping",
+        "project": "02",
+        "image": "../assets/images/projects/02/Story8.png",
+        "imageAlt": "story08",
+        "title": "Prototyping",
+        "description": ["Prepare Wireframes ", "Mobile ", "Web ", "Test Prototypes"],
+        "footerText": ""
+    },
+    {
+        "key": "09",
+        "project": "02",
+        "image": "../assets/images/projects/02/Story9.png",
+        "imageAlt": "story09",
+        "title": "Update Prototype",
+        "description": ["Address User Feedback ", "Improve Targeted User Flows ", "Improve Mood. "],
+        "footerText": ""
+    },
+    {
+        "key": "10",
+        "project": "02",
+        "image": "../assets/images/projects/02/Story10.png",
+        "imageAlt": "story10",
         "title": "What Next",
         "description": ["Consider secondary user flows ", "Consider other user interfaces (smart-watch) ", "User Testing and Implemention (Implement design) "],
         "footerText": "Make the Upgrade"
