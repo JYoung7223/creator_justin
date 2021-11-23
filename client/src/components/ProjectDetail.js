@@ -53,15 +53,18 @@ function ProjectDetail(props){
                     return(
                         <section className="card border-none project mb-3" id={detail.key}>
                             <div className={(detail.key % 2 === 0 && "row flex-row-reverse") || (detail.key % 2 === 1 && "row")}>
-                                <div className="col-md-6 py-3">
-                                    <img src={detail.image} className="img-fluid rounded-start" alt={detail.imageAlt}/>
+                                <div className="col-md-8 py-3">
+                                    {(detail.image.endsWith(".mov") && <video autoplay="true" loop="true" muted="true" playsinline="true" src={detail.image} width="100%" type="video/mov"></video>) || 
+                                        (<img src={detail.image} className="img-fluid rounded-start" alt={detail.imageAlt}/>)}
                                 </div>
-                                <div className="col-md-6 my-auto">
+                                <div className="col-md-4 my-auto">
                                     <div className="card-body">
                                         <h5 className="detail-title text-center text-company-secondary card-title">{detail.title}</h5>
-                                        {detail.description.map((line, index)=>{
-                                            return(<p className="detail-description text-center card-text my-0" id={index}>{line}</p>);
-                                        })}                                                                                
+                                            <ul>
+                                                {detail.description.map((line, index)=>{
+                                                    return(<li className="detail-description mx-3 card-text my-2" id={index}>{line}</li>);
+                                                })}
+                                            </ul>
                                     </div>
                                     <div className="detail-footer text-center">
                                         <h6 className="detail-footer text-center">{detail.footerText}</h6>
